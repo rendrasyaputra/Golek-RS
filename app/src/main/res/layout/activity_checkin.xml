@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".checkin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_unyu"
+        android:layout_marginTop="-10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/pmed"
+            android:text="Detail"
+            android:textColor="#FFFF"
+            android:textSize="24dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golek RS"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="89dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/pmed"
+                android:textColor="#0B0B0B"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Isikan Data Anda Ya !"
+            android:fontFamily="@font/pmed"
+            android:textSize="22dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Masukkan Nama "
+            android:textStyle="normal"
+            android:fontFamily="@font/plight"
+            android:textSize="16dp"
+            android:textColor="#0B0B0B"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/nama"
+            android:padding="8dp"
+            android:background="@drawable/form"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Masukkan Telepon"
+            android:textStyle="normal"
+            android:fontFamily="@font/plight"
+            android:textSize="16dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:id="@+id/nope"
+            android:background="@drawable/form"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Masukkan Alamat"
+            android:textStyle="normal"
+            android:fontFamily="@font/plight"
+            android:textSize="16dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingLeft="8dp"
+            android:id="@+id/alamat"
+            android:background="@drawable/form"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_unyu"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:fontFamily="@font/pmed"
+            android:textColor="#ffffff"
+            android:id="@+id/submit"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

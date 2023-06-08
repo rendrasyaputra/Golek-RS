@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_unyu"
+        android:layout_marginTop="-10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/pmed"
+            android:text="Detail"
+            android:textColor="#FFFF"
+            android:textSize="24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/rsud" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pmed"
+            android:text="RSUD Kota Yogyakarta"
+            android:textSize="16dp"
+            android:textColor="#0B0B0B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/plight"
+            android:text="Jl. Ki Ageng Pemanahan No.1"
+            android:textColor="#0B0B0B" />
+
+        <Button
+            android:id="@+id/telprs2"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_unyu"
+            android:fontFamily="@font/pmed"
+            android:text="Telepon"
+            android:textColor="#FFFF"
+            android:drawablePadding="-10dp"/>
+
+        <Button
+            android:id="@+id/maprs2"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_unyu"
+            android:fontFamily="@font/pmed"
+            android:text="Lokasi"
+            android:textColor="#FFFF"
+            android:drawablePadding="-10dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tentang"
+            android:fontFamily="@font/pmed"
+            android:textSize="20dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tentang"
+            android:fontFamily="@font/pmed"
+            android:textSize="20dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/plight"
+            android:text="RSUD Kota Yogyakarta merupakan Rumah Sakit milik Pemerintah Kota Yogyakarta yang berada di sisi selatan Kota Yogyakarta. Dalam perkembangannya, RSUD Kota Yogyakarta senantiasa mengembangkan layanan baru dengan berbagai layanan unggulan antara lain : Layanan Klinik Gigi dan Mulut dilengkapi dengan layanan bedah mulut yang diampu oleh dokter Spesialis Bedah Mulut (Cleft Center), untuk penanganan operatif pada penderita bibir sumbing; Layanan Klinik Jantung yang diampu oleh Dokter Spesialis Jantung dengan beberapa peralatan diagnostic seperti EKG, Treadmill dan Echocardiography (Klinik Diagnostik Jantung);."
+            android:textColor="#0B0B0B"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/cekrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check-In"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_unyu"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/pmed"/>
+
+    </LinearLayout>
+</RelativeLayout>

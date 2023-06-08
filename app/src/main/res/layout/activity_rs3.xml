@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_unyu"
+        android:layout_marginTop="-10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/pmed"
+            android:text="Detail"
+            android:textColor="#FFFF"
+            android:textSize="24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/rspku" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pmed"
+            android:text="RS PKU Muhammadiyah"
+            android:textSize="16dp"
+            android:textColor="#0B0B0B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/plight"
+            android:text="Jl. KH. Ahmad Dahlan No.20"
+            android:textColor="#0B0B0B" />
+
+        <Button
+            android:id="@+id/telprs3"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/button_unyu"
+            android:fontFamily="@font/pmed"
+            android:text="Telepon"
+            android:textColor="#FFFF"
+            android:drawablePadding="-10dp"/>
+
+        <Button
+            android:id="@+id/maprs3"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/button_unyu"
+            android:fontFamily="@font/pmed"
+            android:text="Lokasi"
+            android:textColor="#FFFF"
+            android:drawablePadding="-10dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tentang"
+            android:fontFamily="@font/pmed"
+            android:textSize="20dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tentang"
+            android:fontFamily="@font/pmed"
+            android:textSize="20dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="RS PKU Muhammadiyah awalnya didirikan berupa klinik sederhana pada tanggal 15 Februari 1923 di kampung Jagang Notoprajan Yogyakarta. Awalnya bernama PKO (Penolong Kesengsaraan Oemoem) dengan maksud menyediakan pelayanan kesehatan bagi kaum dhuafa’. Didirikan atas inisiatif H.M. Sudjak yang didukung sepenuhnya oleh K.H. Ahmad Dahlan. Seiring dengan perkembangan zaman, pada sekitar era tahun 1980-an nama PKO berubah menjadi PKU (Pembina Kesejahteraan Umat)"
+            android:fontFamily="@font/plight"
+            android:textSize="16dp"
+            android:textColor="#0B0B0B"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/cekrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check-In"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_unyu"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/pmed"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/logo"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Golek RS"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="89dp"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/pmed"
+                    android:textColor="#0B0B0B"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Pilihan Rumah Sakit Untuk Anda !"
+                    android:fontFamily="@font/pmed"
+                    android:textSize="20dp"
+                    android:textColor="#0B0B0B"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/sardjito"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/pmed"
+                    android:text="RSUP Sardjito"
+                    android:textColor="#0B0B0B"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/plight"
+                    android:text="Jl. Kesehatan No.1, Senolowo"
+                    android:textColor="#0B0B0B"/>
+
+                <Button
+                    android:id="@+id/RS1"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/button_unyu"
+                    android:fontFamily="@font/pmed"
+                    android:text="Pilih"
+                    android:textColor="#FFFF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rsud"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/pmed"
+                    android:text="RSUD Kota Yogyakarta"
+                    android:textColor="#0B0B0B"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/plight"
+                    android:text="Jl. Ki Ageng Pemanahan No.1"
+                    android:textColor="#0B0B0B"/>
+
+                <Button
+                    android:id="@+id/RS2"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/button_unyu"
+                    android:fontFamily="@font/pmed"
+                    android:text="Pilih"
+                    android:textColor="#FFFF"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rspku"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/pmed"
+                    android:text="RS PKU Muhammadiyah Yogyakarta"
+                    android:textColor="#0B0B0B"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="53dp"
+                    android:fontFamily="@font/plight"
+                    android:text="Jl. KH. Ahmad Dahlan No.20"
+                    android:textColor="#0B0B0B"/>
+
+                <Button
+                    android:id="@+id/RS3"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/button_unyu"
+                    android:fontFamily="@font/pmed"
+                    android:text="Pilih"
+                    android:textColor="#FFFF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/hidayatullah" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/pmed"
+                    android:text="RSI Hidayatullah"
+                    android:textColor="#0B0B0B" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/plight"
+                    android:text="Jln Busung Raya 09"
+                    android:textColor="#0B0B0B" />
+
+                <Button
+                    android:id="@+id/RS4"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/button_unyu"
+                    android:fontFamily="@font/pmed"
+                    android:text="Pilih"
+                    android:textColor="#FFFF"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/bhaktiibu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/pmed"
+                    android:text="Rumah Sakit Bhakti Ibu"
+                    android:textColor="#0B0B0B" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/plight"
+                    android:text=" Jl. Golo No. 32-33"
+                    android:textColor="#0B0B0B" />
+
+                <Button
+                    android:id="@+id/RS5"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/button_unyu"
+                    android:fontFamily="@font/pmed"
+                    android:text="Pilih"
+                    android:textColor="#FFFF"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
